@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assests/css/style.css" />
+    <script src="assests/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="poke-head" src="assests/images/pokemon hangman header.jpg" alt="pokemon header">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="diplo">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="display">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-4 offset-sm-2" id="bordered">
+                <img id="win-pic" src="assests/images/pokeball-starter.jpg" alt="pokeball">
+
+            </div>
+            <div class="col-sm-4" id="bordered">
+                <p>PRESS ANY KEY TO GET STARTED</p>
+                <br>
+                <p class="winnum">Wins:</p>
+                
+                <p>Current Word</p>
+                <br>
+                <div class="current">_ _ _ _ _ _</div>
+                <p>You Only Have 12 guesses! Dont Mess Up!</p>
+                <br>
+                <P class="guesses"></P>
+                <p>LETTERS ALREADY GUESSED!</p>
+                <P class="letters"></P>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

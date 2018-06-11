@@ -1,0 +1,25 @@
+#win-pic{
+    width: 100%;
+    height: 150px;
+}
+#poke-head{
+    width: 100%;
+    height: 200px;
+
+}
+#bordered{
+    border: 5px;
+    border-style: solid;
+    height: 500px;
+    background-color: antiquewhite;
+}
+body{
+    background-color: black;
+}
+#current{
+    font-size: 10px;
+}
+.diplo{
+    color: aliceblue;
+    text-align: center;
+}
